@@ -1,0 +1,29 @@
+{
+    "name": "fluid-tags",
+    "description": "A utility for generating ctags output for Fluid Code",
+    "version": "0.1.0",
+    "author": "Fluid, Steven Githens",
+    "bugs": "http://github.com/sgithens/fluid-tags",
+    "homepage": "http://github.com/sgithens/fluid-tags",
+    "dependencies": {
+        "esprima": "1.0.4"
+    },
+    "devDependencies": {
+    },
+    "licenses": [
+        {
+            "type": "BSD-3-Clause",
+            "url": "http://www.opensource.org/licenses/BSD-3-Clause"
+        }
+    ],
+    "keywords": [
+        "gpii",
+        "fluid",
+        "configuration"
+    ],
+    "repository": "git://github.com/sgithens/fluid-tags.git",
+    "main": "",
+    "engines": {
+        "node": ">=0.1.9"
+    }
+}
