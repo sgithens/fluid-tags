@@ -88,9 +88,11 @@ var maketags = function(filename) {
     doAstNode(ast, info, 1);
 };
 
-filenames = process.argv.slice(6);
+filenames = process.argv.slice(2);
 for (idx in filenames) {
-    maketags(filenames[idx]);
+    if (filenames[idx].indexOf("-") !== 0) {
+        maketags(filenames[idx]);
+    }
 }
 
 })();
